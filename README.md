@@ -28,4 +28,7 @@ how to use
   });
 `
 
-In imageZoom.js , you need to write your own RegExp to replace my RegExp . This is important
+*In imageZoom.js , you need to write your own RegExp to replace my RegExp . This is important*
+
+
+Article Url: http://www.cnblogs.com/ys-ys/p/6642304.html
