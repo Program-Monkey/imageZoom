@@ -14,10 +14,9 @@ how to use
 `
 
 # html
-`
+
 <div class="J_imgBox imgBox" data-src="your image url"></div>
 
-`
 
 # js
 `
