@@ -12,6 +12,9 @@
 
     // 获取图片url
     var imgUrl = imgContainer.getAttribute('data-src')
+    
+    //  you need to write your own RegExp to replace my RegExp . This is important ！！！
+    // 用自己的正则代替这里的  因为对图片处理的参数不尽相同，比如我们公司就是?imageView/w/300/h/300
     var originalUrl = imgUrl.replace(/\.(jpg|jpeg|png|gif)(_)(\d+)(x)(\d+)(q90)?/g,'');
 
     // 获取图片节点位置
@@ -27,7 +30,7 @@
     // 生成遮罩html
     var glassWidth = elemClientRect.width/settings.imgZoom;
     var glassHeight = elemClientRect.height/settings.imgZoom;
-    var glassStyle = 'width:' + glassWidth + 'px;height:' + glassHeight + 'px;'+'      position:absolute;top: -9999px;left: -9999px;cursor: move;background: rgba(0,0,180,0.5);'
+    var glassStyle = 'width:' + glassWidth + 'px;height:' + glassHeight + 'px;'+'position:absolute;top: -9999px;left: -9999px;cursor: move;background: rgba(0,0,180,0.5);'
     var glassHtml = '<div class="J_glass" style="' + glassStyle + '" ></div>';
 
     // 生成大图
@@ -98,5 +101,3 @@
   }
   window.imageZoom = imageZoom;
 })(window)
-
-console.log(window)
