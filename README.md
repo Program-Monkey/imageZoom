@@ -21,7 +21,7 @@ how to use
 # js
 `
   var elem = document.querySelector('.J_imgBox'); // or which element your want
-  
+
   imageZoom(elem,{
     imgZoom:2,
     marginLeft: 0,
