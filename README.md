@@ -19,7 +19,7 @@ how to use
 `
 
 # js
-`
+`  
   var elem = document.querySelector('.J_imgBox'); // or which element your want  
   
   imageZoom(elem,{
@@ -27,7 +27,7 @@ how to use
     marginLeft: 0,
     marginTop: 0
   });
-`
+`  
 
 **In imageZoom.js , you need to write your own RegExp to replace my RegExp . This is important**
 
